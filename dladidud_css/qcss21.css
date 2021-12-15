@@ -1,0 +1,23 @@
+#box {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr; 
+        width: 1000px;
+        height: 1000px;
+    }
+
+#a {
+    background-color: rgb(102, 128, 73);
+}
+#b {
+    background-color: rgb(26, 110, 26);
+}
+#c {
+    background-color: rgb(51, 71, 73);
+}
+#d {
+    background-color: rgb(119, 97, 114);
+}
+#e {
+    background-color: rgb(224, 169, 212);
+}

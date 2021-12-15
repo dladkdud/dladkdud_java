@@ -1,0 +1,16 @@
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100px;
+    height: 1000px;
+
+    background-color: violet;
+}
+#a {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,26 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+#a {
+    background-color: burlywood;
+    float: left;
+}
+#b {
+    background-color: darkolivegreen;
+    float: right;
+}
+#c {
+    background-color: darksalmon;
+    clear: both;
+    width: 1000px;
+    height: 500px;
+}
+#d {
+    background-color:cadetblue;    
+    float: left;
+}
+#e {
+    background-color: cornflowerblue;
+    float: right;
+}

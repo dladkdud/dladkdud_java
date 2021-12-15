@@ -1,0 +1,54 @@
+#mai {
+    background-color: red;
+    float: left;
+    width: 800px;
+    height: 800px;
+}
+#sub {
+    background-color: orange;
+    width: 200px;
+    height: 800px;
+    float: left;
+}
+
+#top {
+    background-color: yellow;
+    width: 800px;
+    height: 100px;
+}
+#middle {
+    background-color: green;
+    width: 800px;
+    height: 100px;
+}
+#logo {
+    background-color: pink;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+#main {
+    background-color: purple;
+    width: 600px;
+    height: 100px;
+    float: left;
+}
+
+#menu01 {
+    background-color: palevioletred;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+#menu02 {
+    background-color: orange;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+#menu03 {
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    float: left;
+}

@@ -1,0 +1,16 @@
+#box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 1000px;
+    height: 100px;
+
+    background-color: darkgrey ;
+}
+#a{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color:white
+}
