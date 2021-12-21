@@ -5,8 +5,7 @@ var player = [1,2,3,4,5,6];
 
 // 1 
 numbers[0] = Math.floor (Math.random() *45+1); 
-dw(numbers[0]);
-br();
+dw(numbers[0] + ", ");
 // 2
 while ( true ){
     numbers[1] = Math.floor (Math.random() *45+1); 
@@ -15,8 +14,7 @@ while ( true ){
     }
     break; 
 }
-dw(numbers[1]);
-br();
+dw(numbers[1] + ", ");
 // 3
 while (true){
     numbers[2] = Math.floor (Math.random() *45+1); 
@@ -27,8 +25,7 @@ while (true){
     }
     break; 
 }
-dw(numbers[2]);
-br();
+dw(numbers[2] + ", ");
 // 4
 while (true){
     numbers[3] = Math.floor (Math.random() *45+1); 
@@ -41,8 +38,7 @@ while (true){
     }
     break; 
 }
-dw(numbers[3]);
-br();
+dw(numbers[3] + ", ");
 // 5
 while (true){
     numbers[4] = Math.floor (Math.random() *45+1); 
@@ -57,8 +53,7 @@ while (true){
     }
     break; 
 }
-dw(numbers[4]);
-br();
+dw(numbers[4] + ", ");
 // 6
 while (true){
     numbers[5] = Math.floor (Math.random() *45+1); 
@@ -76,14 +71,12 @@ while (true){
     break; 
 }
 dw(numbers[5]);
-br();
 
 br();
 br();
 
 for ( var j=0 ; j<6 ; j++) {
-    dw (player[j]);
-    br();
+    dw (player[j] + ", ");
 }
 
 var lotto = 0;
@@ -182,13 +175,12 @@ br();
 
 if (lotto == 3 ){
     dw ("5등입니다.");
-}
-if (lotto == 4 ){
+} else if (lotto == 4 ){
     dw ("4등입니다.");
-}
-if (lotto == 5 ){
+} else if (lotto == 5 ){
     dw ("3등입니다.");
-}
-if (lotto == 6 ){
+} else if (lotto == 6 ){
     dw ("1등입니다.");
+}else {
+    dw("당첨되지 않았습니다.");
 }
